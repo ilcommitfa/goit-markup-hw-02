@@ -1,0 +1,169 @@
+:root {
+    --main-color: #212121;
+    --main-logo-color: #000000;
+    --main-bg-color: #FFFFFF;
+    --secondary-bg-color: #2F303A;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-color);
+    background-color: var(--main-bg-color);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--main-logo-color);
+}
+
+.logo-start {
+    color: #2196F3;
+}
+
+.logo.footer {
+    color: #FFFFFF;
+}
+
+.nav-menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.nav-menu.active {
+    color: #2196F3;
+}
+
+.header-address {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.nav-menu:hover,
+.nav-menu:focus,
+.header-address:hover,
+.header-address:focus {
+    color: #2196F3;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.hero-btn {
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+ }
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: #FFFFFF;
+    background-color: #188CE8;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    color: var(--main-bg-color);
+    background-color: #2196F3;
+    cursor: pointer;
+}
+.hero-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+}
+.project-client {
+        font-size: 18px;
+        line-height: 2.0;
+        letter-spacing: 0.06em;
+}
+.project-type {
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+.pecularity-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.pecularity-item {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.services-title,
+.team-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-position {
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+.footer,
+.hero {
+    background-color: var(--secondary-bg-color);
+}
+
+.address {
+        font-style: normal;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+        
+}
+
+.footer-address:hover,
+.footer-address:focus {
+    color: #FFFFFF;
+}
