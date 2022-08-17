@@ -1,8 +1,10 @@
 :root {
     --main-color: #212121;
+    --secondary-color: #757575;
     --main-logo-color: #000000;
     --main-bg-color: #FFFFFF;
     --secondary-bg-color: #2F303A;
+    --main-btn-bgc: #2196F3;
 }
 
 body {
@@ -32,13 +34,14 @@ a {
     color: #2196F3;
 }
 
-.logo.footer {
+.logo.footer,
+.post-address {
     color: #FFFFFF;
 }
 
 .nav-menu {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
@@ -53,34 +56,43 @@ a {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--secondary-color);
 }
 
 .nav-menu:hover,
 .nav-menu:focus,
 .header-address:hover,
-.header-address:focus {
+.header-address:focus,
+.footer-address:hover,
+.footer-address:focus,
+.post-address:hover,
+.post-address:focus {
     color: #2196F3;
 }
 
 .btn {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+    background-color: #F5F4FA;
 }
 
 .hero-btn {
+    font-family: inherit;
     font-size: 16px;
+    font-weight: 700;
     line-height: 1.87;
     text-align: center;
     letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: var(--main-btn-bgc);
  }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    color: #FFFFFF;
     background-color: #188CE8;
     cursor: pointer;
 }
@@ -88,28 +100,31 @@ a {
 .btn:hover,
 .btn:focus {
     color: var(--main-bg-color);
-    background-color: #2196F3;
+    background-color: var(--main-btn-bgc);
     cursor: pointer;
 }
+
 .hero-title {
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-        color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
+
 .project-client {
-        font-size: 18px;
-        line-height: 2.0;
-        letter-spacing: 0.06em;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
 }
+
 .project-type {
-        font-size: 16px;
-        line-height: 1.87;
-        letter-spacing: 0.03em;
-        color: #757575;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
 }
 
 .pecularity-title {
@@ -123,7 +138,7 @@ a {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-color);
 }
 
 .services-title,
@@ -133,6 +148,7 @@ a {
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 .team-member {
     font-weight: 500;
     font-size: 16px;
@@ -142,11 +158,11 @@ a {
 }
 
 .team-position {
-        font-size: 16px;
-        line-height: 1.19;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #757575;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
 }
 
 .footer,
@@ -155,15 +171,9 @@ a {
 }
 
 .address {
-        font-style: normal;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
-        
-}
-
-.footer-address:hover,
-.footer-address:focus {
-    color: #FFFFFF;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
